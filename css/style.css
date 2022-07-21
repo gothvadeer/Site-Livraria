@@ -415,7 +415,7 @@ section .card-item {
 }
 
 
-/* footer */
+/* ========================== FOOTER ========================== */
 
 footer {
     width: 100%;
@@ -444,6 +444,7 @@ footer img {
     width: 35px;
     height: 35px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .footer-pay,
@@ -456,6 +457,9 @@ footer img {
     min-height: 100px;
 }
 
+.footer-pay {
+    margin-left: 10em;
+}
 
 .content-footer-links h4 {
     margin-bottom: 10px;
@@ -483,7 +487,7 @@ footer .last {
 
 }
 
-/* mobile */
+/* ================== RESPONSIVIDADE ====================== */
 
 
 @media (max-width: 576px) {
